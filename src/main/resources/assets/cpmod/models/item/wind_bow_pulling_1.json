@@ -1,0 +1,6 @@
+{
+  "parent": "cpmod:item/wind_bow",
+  "textures": {
+    "layer0": "cpmod:item/wind_bow_pulling_1"
+  }
+}

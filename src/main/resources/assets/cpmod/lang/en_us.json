@@ -1,0 +1,27 @@
+{
+  "item.cpmod.world_thermometer": "World Thermometer",
+  "item.cpmod.plastic_bag": "Plastic Bag",
+  "item.cpmod.metal_scrap": "Metal Scrap",
+  "item.cpmod.steel_ingot": "Steel Ingot",
+  "item.cpmod.light_magic": "Light Token",
+  "item.cpmod.wind_magic": "Wind Token",
+  "item.cpmod.water_magic": "Water Token",
+  "item.cpmod.black_water_bucket": "Polluted Water Bucket",
+
+  "item.cpmod.light_sword": "Light Sword",
+  "item.cpmod.wind_wand": "Wind Wand",
+
+  "item.cpmod.wind_pickaxe": "Wind Pickaxe",
+
+
+  "item.cpmod.water_helmet": "Water Helmet",
+  "item.cpmod.water_chestplate": "Water Chestplate",
+  "item.cpmod.water_legging": "Water Legging",
+  "item.cpmod.water_boots": "Water Boots",
+
+  "block.cpmod.pile_of_trash": "Pile of Trash",
+  "block.cpmod.steel_block": "Steel Block",
+
+
+  "itemGroup.cp_tab": "Mod Tab"
+}

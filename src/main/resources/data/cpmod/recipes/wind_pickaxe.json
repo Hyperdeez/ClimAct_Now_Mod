@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " R ",
+    " R "
+  ],
+  "key": {
+    "#": {
+      "item": "cpmod:wind_magic"
+    },
+    "R": {
+      "item": "cpmod:steel_ingot"
+    }
+  },
+  "result":{
+    "item": "cpmod:wind_pickaxe"
+  }
+}

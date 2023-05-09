@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "cpmod:mcdonald",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 69420,
+    "spacing": 20,
+    "separation": 15
+  }
+}

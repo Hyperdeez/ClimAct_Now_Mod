@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cpmod:light_magic",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cpmod:water_magic",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cpmod:wind_magic",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

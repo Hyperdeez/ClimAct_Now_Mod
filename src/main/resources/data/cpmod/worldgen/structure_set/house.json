@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "cpmod:house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 42069,
+    "spacing": 10,
+    "separation": 5
+  }
+}

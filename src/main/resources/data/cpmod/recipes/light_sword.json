@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "R"
+  ],
+  "key": {
+    "#": {
+      "item": "cpmod:light_magic"
+    },
+    "R": {
+      "item": "cpmod:steel_ingot"
+    }
+  },
+  "result":{
+    "item": "cpmod:light_sword"
+  }
+}

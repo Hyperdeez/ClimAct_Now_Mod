@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "cpmod:light_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 105473113,
+    "spacing": 10,
+    "separation": 5
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cpmod:plastic_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cpmod:metal_scrap"
+        }
+      ]
+    }
+  ]
+}

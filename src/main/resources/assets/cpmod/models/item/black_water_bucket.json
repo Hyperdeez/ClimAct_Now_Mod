@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cpmod:item/black_water_bucket"
+  }
+}
