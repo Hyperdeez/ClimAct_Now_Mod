@@ -3,9 +3,7 @@ package net.hyper.cpmod.item;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;
-import net.minecraftforge.fml.common.Mod;
 
-import static net.hyper.cpmod.item.ModItems.WIND_MAGIC;
 
 public class ModTiers {
     public static final ForgeTier LIGHT = new ForgeTier(3, 1100, 3f, 3f,

@@ -1,8 +1,6 @@
 package net.hyper.cpmod.item.custom;
 
 
-import com.mojang.blaze3d.shaders.Effect;
-import net.minecraft.client.gui.font.glyphs.BakedGlyph;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -16,10 +14,9 @@ import net.minecraft.world.level.block.state.BlockState;
 public class WindPickaxe extends PickaxeItem {
 
 
-    public WindPickaxe(Tier pTier, int p_42962_, float p_42963_, Properties pProperties) {
-        super(pTier, p_42962_, p_42963_, pProperties);
+    public WindPickaxe(Tier p_42961_, int p_42962_, float p_42963_, Properties p_42964_) {
+        super(p_42961_, p_42962_, p_42963_, p_42964_);
     }
-
 
     @Override
     public boolean mineBlock(ItemStack pStack, Level pLevel, BlockState pBlockState, BlockPos pBlockPos, LivingEntity p_41002_) {

@@ -1,10 +1,8 @@
 package net.hyper.cpmod.item;
 
 import net.hyper.cpmod.CulMod;
-import net.hyper.cpmod.fluid.ModFluid;
 import net.hyper.cpmod.item.custom.WaterArmorItem;
 import net.hyper.cpmod.item.custom.LuckSwordItem;
-import net.hyper.cpmod.item.custom.WindWand;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -59,12 +57,7 @@ public class ModItems {
             () -> new LuckSwordItem(ModTiers.LIGHT, 12, 3f,
                     new Item.Properties().stacksTo(1)));
 
-    public static final RegistryObject<Item> WIND_WAND = ITEMS.register("wind_wand",
-            () -> new WindWand(new Item.Properties().durability(1024)));
 
-    public static final RegistryObject<Item> BLACK_WATER_BUCKET = ITEMS.register("black_water_bucket",
-            () -> new BucketItem(ModFluid.SOURCE_BLACK_WATER,
-                    new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {

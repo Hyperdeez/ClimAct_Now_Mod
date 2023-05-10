@@ -1,13 +1,12 @@
 package net.hyper.cpmod.block;
 
 import net.hyper.cpmod.CulMod;
-import net.hyper.cpmod.fluid.ModFluid;
+
 import net.hyper.cpmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.LiquidBlock;
+
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,8 +24,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1f)));
 
-    public static final RegistryObject<LiquidBlock> BLACK_WATER_BLOCK = BLOCKS.register("black_water_block",
-            () -> new LiquidBlock(ModFluid.SOURCE_BLACK_WATER, BlockBehaviour.Properties.copy(Blocks.WATER)));
+
 
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)

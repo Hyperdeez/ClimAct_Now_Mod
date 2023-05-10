@@ -1,13 +1,11 @@
 package net.hyper.cpmod.item;
 
-import net.hyper.cpmod.CulMod;
-import net.hyper.cpmod.item.ModItems;
+
 import net.minecraft.Util;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.util.StringRepresentable;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.Ingredient;
 

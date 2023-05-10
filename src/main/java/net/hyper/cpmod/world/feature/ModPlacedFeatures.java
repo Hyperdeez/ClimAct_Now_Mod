@@ -1,10 +1,10 @@
 package net.hyper.cpmod.world.feature;
 
 import net.hyper.cpmod.CulMod;
-import net.hyper.cpmod.world.feature.ModConfiguredFeatures;
+
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderGetter;
-import net.minecraft.core.Registry;
+
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
@@ -12,13 +12,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.placement.*;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.RegistryObject;
 
 import java.util.List;
 
-import static net.minecraft.data.worldgen.placement.PlacementUtils.createKey;
+
 
 public class ModPlacedFeatures {
 
@@ -43,9 +40,6 @@ public class ModPlacedFeatures {
         return orePlacement(CountPlacement.of(p_195344_), p_195345_);
     }
 
-    public static List<PlacementModifier> rareOrePlacement(int p_195350_, PlacementModifier p_195351_) {
-        return orePlacement(RarityFilter.onAverageOnceEvery(p_195350_), p_195351_);
-    }
 
     private static ResourceKey<PlacedFeature> createKey(String name) {
         return ResourceKey.create(Registries.PLACED_FEATURE, new ResourceLocation(CulMod.MOD_ID, name));
